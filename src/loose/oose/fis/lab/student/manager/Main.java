@@ -11,6 +11,10 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    public void end()
+    {
+        System.out.println("End");
+    }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
